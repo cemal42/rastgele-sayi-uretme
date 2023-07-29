@@ -1,1 +1,1 @@
-Proje linki => [rastgele-sayi-uretme]()
+Proje linki => [rastgele-sayi-uretme](https://main--genuine-alfajores-ef0c07.netlify.app/)
