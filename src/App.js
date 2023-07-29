@@ -20,11 +20,11 @@ function App() {
         <div className="minMaxContainer">
           <div className="min">
             <p>Min:</p>
-            <input type="number" min="0" onChange={(e) => setMinVal(+target.value)}/>
+            <input type="number" min="0" onChange={(e) => setMinVal(Number(e.target.value))}/>
           </div>
           <div className="max">
             <p>Max:</p> 
-            <input type="number" min="0" onChange={(e) => setMaxVal(+target.value)}/> 
+            <input type="number" min="0" onChange={(e) => setMaxVal(Number(e.target.value))}/> 
           </div>
         </div>
         <div className="randomButton">
